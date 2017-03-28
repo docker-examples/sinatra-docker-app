@@ -1,0 +1,34 @@
+# Configure the database used when in the development environment
+development:
+  adapter: mysql2
+  encoding: utf8
+  database: sinatra_docker_development
+  pool: 20
+  username: root
+  password: root
+  reconnect: true
+  host: 0.0.0.0
+  port: 3306
+
+# Configure the database used when in the test environment
+test:
+  adapter: mysql2
+  encoding: utf8
+  database: sinatra_docker_test
+  pool: 5
+  username: root
+  password: root
+  host: 192.168.99.100
+  port: 3306
+
+# Configure the database used when in the production environment
+production:
+  adapter: mysql2
+  encoding: utf8
+  database: sinatra_docker_production
+  pool: 20
+  username: root
+  password: root
+  reconnect: true
+  host: 192.168.99.100
+  port: 3306

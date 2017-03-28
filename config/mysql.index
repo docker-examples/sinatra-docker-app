@@ -1,0 +1,41 @@
+
+
+Authentication
+   User
+     username
+     access_token
+     active
+     role
+     application
+     
+
+   Journey
+     group_leader_id
+     camp_leader_id
+     status
+     station_id
+     journey_type
+     date
+     
+   Shift
+     user_id
+     temporary
+     status
+     date
+     shift_type
+     
+   Panic
+     user_id
+     active
+     date
+
+   Station
+     station_code
+     station_name
+      
+   StationLocation
+     station_id
+     
+     
+      
+    

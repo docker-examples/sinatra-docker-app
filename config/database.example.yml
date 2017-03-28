@@ -1,0 +1,28 @@
+# Configure the database used when in the development environment
+development:
+  adapter: mysql2
+  encoding: utf8
+  database: mda_api_development
+  pool: 20
+  username: root
+  password: root
+  reconnect: true
+
+# Configure the database used when in the test environment
+test:
+  adapter: mysql2
+  encoding: utf8
+  database: mda_api_test
+  pool: 5
+  username: root
+  password: root
+
+# Configure the database used when in the production environment
+production:
+  adapter: mysql2
+  encoding: utf8
+  database: mda_api_production
+  pool: 20
+  username: root
+  password: root
+  reconnect: true

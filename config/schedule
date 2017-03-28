@@ -1,0 +1,10 @@
+
+#00 00 * * * * /bin/bash -l -c 'cd ~/apps/rb_apps/MdaApi && ruby script/refresh_seed >> ~/apps/rb_apps/MdaApi/log/refresh_db.log'
+
+#my app dir home/hareram/dummy/mdaapi
+
+#*/1 * * * * /bin/bash -l -c 'cd ~/dummy/mdaapi && ruby script/refresh_seed >> ~/dummy/mdaapi/log/refresh_db.log'
+#* * * * * echo "test message" >> ~/dummy/mdaapi/log/refresh_db.log
+
+
+* * * * * /bin/bash -l -c 'cd ~/dummy/mdaapi && ruby lib/notifications/user_notification.rb >> ~/dummy/mdaapi/tmp/log/push.log'
