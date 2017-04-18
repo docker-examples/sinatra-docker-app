@@ -32,7 +32,7 @@ module AuthenticationHelper
       @current_user = User.find(decoded_token[0]["user_id"])
     else
       # Find Token
-      #user = MdaApi.cache.fetch("/token/access_token/#{access_token}", expires_in: 1.hour) do
+      #user = SinatraApi.cache.fetch("/token/access_token/#{access_token}", expires_in: 1.hour) do
       @current_user = User.find_by(access_token: access_token)
       #end
 

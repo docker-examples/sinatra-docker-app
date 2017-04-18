@@ -45,7 +45,7 @@ end
 # redis cache config
 SimpleRedisCache::Config.redis =  Redis.new(url: 'redis://192.168.99.100:6379')
 
-class MdaApi < Sinatra::Base
+class SinatraApi < Sinatra::Base
 
   set :export_email, 'abc@gmail.com' #'anupam.hore@asia.xchanging.com'
   set :show_exceptions, false

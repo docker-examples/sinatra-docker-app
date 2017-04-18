@@ -19,4 +19,4 @@ set :run, false
 
 #set :environment, :production
 
-run MdaApi
+run SinatraApi

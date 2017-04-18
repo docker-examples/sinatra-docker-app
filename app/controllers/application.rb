@@ -1,4 +1,4 @@
-class MdaApi < Sinatra::Base
+class SinatraApi < Sinatra::Base
   get '/' do 
     "Ask for documentation"
   end

@@ -1,4 +1,4 @@
-class MdaApi < Sinatra::Base
+class SinatraApi < Sinatra::Base
 
   post '/auth/login' do
     params[:user] ||= {}

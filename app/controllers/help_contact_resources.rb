@@ -1,4 +1,4 @@
-class MdaApi < Sinatra::Base
+class SinatraApi < Sinatra::Base
 
   get '/help_contacts' do
       @help_contacts = HelpContact.where({})

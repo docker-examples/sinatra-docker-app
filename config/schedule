@@ -1,10 +1,10 @@
 
-#00 00 * * * * /bin/bash -l -c 'cd ~/apps/rb_apps/MdaApi && ruby script/refresh_seed >> ~/apps/rb_apps/MdaApi/log/refresh_db.log'
+#00 00 * * * * /bin/bash -l -c 'cd ~/apps/rb_apps/SinatraApi && ruby script/refresh_seed >> ~/apps/rb_apps/SinatraApi/log/refresh_db.log'
 
-#my app dir home/hareram/dummy/mdaapi
+#my app dir home/hareram/dummy/SinatraApi
 
-#*/1 * * * * /bin/bash -l -c 'cd ~/dummy/mdaapi && ruby script/refresh_seed >> ~/dummy/mdaapi/log/refresh_db.log'
-#* * * * * echo "test message" >> ~/dummy/mdaapi/log/refresh_db.log
+#*/1 * * * * /bin/bash -l -c 'cd ~/dummy/SinatraApi && ruby script/refresh_seed >> ~/dummy/SinatraApi/log/refresh_db.log'
+#* * * * * echo "test message" >> ~/dummy/SinatraApi/log/refresh_db.log
 
 
-* * * * * /bin/bash -l -c 'cd ~/dummy/mdaapi && ruby lib/notifications/user_notification.rb >> ~/dummy/mdaapi/tmp/log/push.log'
+* * * * * /bin/bash -l -c 'cd ~/dummy/SinatraApi && ruby lib/notifications/user_notification.rb >> ~/dummy/SinatraApi/tmp/log/push.log'

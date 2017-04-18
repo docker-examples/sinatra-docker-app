@@ -15,7 +15,7 @@ class ReportsWorker
       # This is a Hash that will be passed to the awesome_email method
       details = {
         to: email,
-        from: 'noreply@mda.com',
+        from: 'noreply@SinatraApi.com',
         subject: 'Report',
         body: 'Please find attached report',
         attachments: { results.filename => File.read(results.filename) }

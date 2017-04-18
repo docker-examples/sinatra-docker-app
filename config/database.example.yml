@@ -2,7 +2,7 @@
 development:
   adapter: mysql2
   encoding: utf8
-  database: mda_api_development
+  database: sinatra_api_development
   pool: 20
   username: root
   password: root
@@ -12,7 +12,7 @@ development:
 test:
   adapter: mysql2
   encoding: utf8
-  database: mda_api_test
+  database: sinatra_api_test
   pool: 5
   username: root
   password: root
@@ -21,7 +21,7 @@ test:
 production:
   adapter: mysql2
   encoding: utf8
-  database: mda_api_production
+  database: sinatra_api_production
   pool: 20
   username: root
   password: root
